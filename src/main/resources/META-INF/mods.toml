@@ -1,0 +1,23 @@
+[[mods]]
+modId = "pennywisemod"
+version = "1.0"
+displayName = "Pennywise Mod"
+credits = "Created by dewittxander800"
+authors = "dewittxander800"
+description = '''
+A mod that adds Pennywise transformation mechanics and abilities.
+'''
+
+[[dependencies.pennywisemod]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pennywisemod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
